@@ -625,21 +625,30 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 70px;
+  margin-top: 12px;
+  width: 206px;
+  height: 80px;
 }
 
 .conect-title {
+  margin: 0;
+  padding: 0;
   width: 145px;
   height: 16px;
   margin-bottom: 20px;
   text-align: left;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-background-color);
 }
 
+.conect-social {
+  margin: 0;
+  padding: 0;
+}
 .conect-social-list {
   margin: 0;
   padding: 0;
@@ -684,6 +693,77 @@ body {
   height: 20px;
   fill: currentColor;
 }
+
+.mailing {
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 93px;
+  width: 570px;
+  height: 86px;
+  text-align: left;
+}
+
+.mailing-title {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.form {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.form-label {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+  border-radius: 4px;
+  background-color: var(--header-background-color);
+}
+
+.button-mailing {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px;
+  width: 196px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primery-background-color);
+  background-color: var(--secondary-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.mailing-icon {
+  /* padding-top: 13px; */
+  align-items: center;
+  text-align: center;
+  fill: var(--primery-background-color);
+}
 /* ----------------------------------------------------------------PORTFOLIO---------------------------------------------------------------- */
 
 /* --------------------------------FILTERS-------------------------------- */
@@ -712,10 +792,9 @@ body {
 .filters-item {
   margin-left: 8px;
   height: 38px;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), cursor 2500ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-item-fist {
